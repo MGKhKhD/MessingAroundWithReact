@@ -66,7 +66,7 @@ const Edit = ({ match }) => (
 
     <Route path={`${match.url}/:topicId`} component={Editing}/>
     <Route exact path={match.url} render={() => (
-      <h3>Please select On eaction.</h3>
+      <h3>Please select.</h3>
     )}/>
   </div>
 )
